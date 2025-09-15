@@ -5,7 +5,6 @@ export function Footer() {
     <footer className='bg-foreground text-white py-16'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12'>
-          {/* Logo e Descrição */}
           <div>
             <div className='flex items-center mb-4'>
               <MapPin className='size-8 text-ocean mr-2' />
@@ -40,7 +39,6 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Links Rápidos */}
           <div>
             <h3 className='font-display text-lg font-semibold mb-4'>
               Links Rápidos
@@ -89,7 +87,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Experiências */}
           <div>
             <h3 className='font-display text-lg font-semibold mb-4'>
               Experiências
@@ -138,7 +135,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contato */}
           <div>
             <h3 className='font-display text-lg font-semibold mb-4'>Contato</h3>
             <div className='space-y-4'>
@@ -164,7 +160,6 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Informações Importantes */}
         <div className='border-t border-gray-700 pt-8 mb-8'>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-gray-300'>
             <div>

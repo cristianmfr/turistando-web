@@ -45,7 +45,6 @@ export function Navigation() {
             </span>
           </div>
 
-          {/* Desktop Menu */}
           <div className='hidden md:block'>
             <div className='flex items-center space-x-8'>
               <button
@@ -86,7 +85,6 @@ export function Navigation() {
             </div>
           </div>
 
-          {/* Mobile menu button */}
           <div className='md:hidden'>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -101,7 +99,6 @@ export function Navigation() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         {isMenuOpen && (
           <div className='md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg border-t'>
             <div className='px-2 pt-2 pb-3 space-y-1'>
